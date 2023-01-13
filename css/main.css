@@ -1,0 +1,28 @@
+:root{
+    --primary:  rgb(32, 167, 122);}
+
+
+*{margin: 0;
+padding: 0;}
+/******************Header**********************/
+.navbar {
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+    width: 100%;}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.container{
+    width: 90%;
+    margin: auto;}
+.logo{
+    width: 70px;}
+.navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;}
