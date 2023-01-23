@@ -1,0 +1,25 @@
+ @import'main.css';/* pour importer una utre fichier cssdans le css*/
+
+ /* **********************BANNER**********************************/
+ .banner{
+        height: calc(100vh - 85.5px);
+        background-image: url('../image/fond.jpeg');
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;  /* alignement a droite */
+        align-items: center;/* alignement vertical centré*/
+}
+.banner-header{
+    padding: 2em;
+    margin-right: 10%;
+     background: rgba(255,255,255,0.5);/*(...,0.5) opacité transparence */
+    border-radius: var(--border-radius);
+    max-width: 20%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); /* compatible avec navigateur safary */
+}
+.banner-header .separator{
+    border: none;
+    border-top: 1px solid var(--secondary);
+    margin-bottom: 10px;
+}
