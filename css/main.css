@@ -4,12 +4,16 @@
 
 *{margin: 0;
 padding: 0;}
+a{display: inline-block;
+    text-decoration:none;
+    color: inherit;}
 /******************Header**********************/
 .navbar {
     background-color: var(--primary);
     position: sticky;
     top: 0;
-    width: 100%;}
+    width: 100%;
+    z-index: 9999999;} /*z-index: positionnement 9999=1ier plan, 0=dernier plan */
 
 .navbar-content {
     display: flex;
@@ -18,11 +22,14 @@ padding: 0;}
 
 .container{
     width: 90%;
-    margin: auto;}
+    margin: auto;
+height: 50px;}
 .logo{
-    width: 70px;}
+    height: 35px;}
 .navbar-links {
     list-style: none;
     padding: 0;
     display: flex;
     gap: 1em;}
+/* li a{text-decoration: none; 
+    color: brown;}*/
